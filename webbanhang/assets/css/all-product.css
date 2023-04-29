@@ -1,0 +1,90 @@
+#main{
+    margin: 120px 64px;
+    /* display:inline-block;
+    position: relative; */
+}
+#main h2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 32px;
+    width: 30%;
+    padding-bottom: 20px;
+    margin-top: 12%;
+    border-bottom: #000 solid 1px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+.col-4 {
+    flex-basis: 33%;
+    padding: 20px;
+    min-width: 200px;
+    margin-top: 60px;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+
+.col-4.products {
+    position: relative;
+}
+
+.col-4_products h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-4_products h4 {
+    font-size: 16px;
+    overflow: hidden;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.col-4_products p {
+    font-size: 14px;
+    margin: 12px 0px;
+}
+
+
+.col-4_products a.price{
+    font-weight: 600;
+
+}
+
+.col-4:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 0.1px #ccc;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+#main .col-4_products .act-btn {
+    display: none;
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+    font-size: 22px;
+}
+#main .col-4_products .act-btn i{
+    padding: 4px;
+    cursor: pointer;
+}
+#main .col-4_products:hover .act-btn{
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+#main .col-4_products .act-btn button{
+    border: none;
+    background: none;
+    font-size: 22px;
+}

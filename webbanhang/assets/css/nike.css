@@ -1,0 +1,115 @@
+#main .filter{
+    margin: 16px 0px;
+}
+#main .filter i {
+    color: black;
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+#main .filter p {
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+#main .filter input {
+    margin: 0px 4px;
+}
+#main .filter ul {
+    display: inline-block;
+}
+#main .filter li {
+    list-style: none;
+    float: left;
+    margin: 0px 8px;
+    border: #000 solid 1px;
+}
+#main .filter li a {
+    text-decoration: none;
+    color: #000;
+    padding: 4px;
+    display: inline-block;
+}
+#main .filter li:hover a{
+    background-color: #000;
+    color: #fff;
+}
+#main .filter input {
+    width: 50px;
+}
+#main .filter i:hover ul{
+    display: block;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4.products {
+    position: relative;
+}
+
+.col-4_products h4, 
+.col-4_products p {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.col-4_products h4 {
+    font-size: 14px;
+    overflow: hidden;
+    color: #7f7f7f;
+}
+
+.col-4_products p {
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.col-4:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.col-4:hover .option,
+.col-3:hover .option
+{
+    display: flex;
+}
+.col-4 img {
+    width: 100%;
+}
+
+#main .list-page {
+    position:absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#main .list-page li {
+    list-style: none;
+    float: left;
+}
+#main .list-page li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #757575;
+    margin: 8px 16px;
+    font-size: 16px;
+    border-bottom: #757575 solid 2px;
+}
+#main .list-page a:hover{
+    font-size: 18px;
+    color: black;
+    border-bottom: black solid 2px;
+}

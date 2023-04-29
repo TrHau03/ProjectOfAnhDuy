@@ -1,0 +1,115 @@
+
+#main{
+    margin: 200px 64px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.form-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart-section{
+    padding: 0px 8px;
+}
+
+.item-section{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #ccc solid 1px;
+    padding: 24px 0px;
+}
+.item-section h4{
+    margin-top: 8px;
+}
+
+.product-item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+.product-item .item{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-pic{
+    width: 150px;
+}
+
+.prod-pic img{
+    width: 100%;
+}
+
+.info-item{
+
+}
+.changes{
+    display: flex;
+    flex-direction: row;
+
+}
+.size-item{
+
+}
+
+.quantity-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.price-item{
+    margin: 8px;
+}
+.action ul{
+    display: flex;
+    justify-content: left;
+    width: 500px;
+    margin-top: 16px;
+}
+.action li{
+    background-color: none;
+    list-style: none;
+}
+
+.action li i{
+    margin: 0;
+    background-color:rgba(0,0,0,0);
+    font-size: 24px;
+}
+
+.action li button{
+    border: none;
+    background-color:rgba(0,0,0,0);
+    margin-right: 16px;
+}
+
+.total-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+}
+.total-section .quantity{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #ccc solid 1px;
+    margin-top: 24px;
+}
+
+.total-section .total{
+    margin: 32px 0px;
+    display: flex;  
+    justify-content: space-between;
+}
+.total-section button{
+
+    width: 350px;
+    height: 60px;
+    border-radius: 30px;
+}
+.total-section .btn-dark{   
+    background-color: black;
+}
+.total-section .btn-dark:hover{
+    background-color: #222629;
+}

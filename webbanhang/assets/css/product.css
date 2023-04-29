@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+.col-4-item{
+    flex-basis: 25%;
+}
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+}
+#header {
+    z-index: 1;
+    width: 100%;
+    padding:10px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    position:fixed;
+    top: 0;
+}
+/* main item */
+#main{
+    margin: 120px 64px;
+    /* display:inline-block;
+    position: relative; */
+}
+#main h2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 32px;
+    width: 30%;
+    padding-bottom: 20px;
+    margin-top: 12%;
+    border-bottom: #000 solid 1px;
+    font-weight: 600;
+}
+
+#main .form-container {
+    background-color: #fff;
+    border-radius: 6px;
+    padding:30px;
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 0 20px 2px #000;
+}
+#main .form-container button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}

@@ -1,0 +1,97 @@
+.action .act-but{
+    display: inline-block;
+    position: relative;
+    border: none;
+    background-color:rgba(0,0,0,0);
+    margin: 4px;
+}
+
+.slider-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 32px 7% 0px;
+}
+.slider-header .action{
+    display: flex;
+}
+.action i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(229, 229, 229) ;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    margin: 4px;
+    color: #7d7d7d;
+    font-size: 16px; 
+
+}
+
+.action .act-but:hover i{
+    background-color:rgb(178, 178, 178);
+    transition: 0.4s;
+}
+.slider {
+    
+    list-style: none;
+    list-style-type: none;
+    padding: 64px 0px 64px 5%;;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+}
+.slider a{
+    text-decoration: none;
+    color: black;
+}
+.slider a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.slider h4{
+    font-size: 18px;
+    padding: 6px 0px;
+    margin: 8px 8px;
+}
+.slider .product{
+    --column-offset: 18px;
+    flex: 0 0 calc(33% - var(--column-offset));
+    margin: 0px 8px;
+}
+.slider img{
+    display: inline-block;
+    width: 100%;
+}
+.slider .price{
+    margin: 8px 8px;
+}
+.prod-card{
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s;
+    text-decoration: none;
+}
+.prod-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px 0.1px #ccc;
+}
+.act-btn {
+    display: none;
+    position: absolute;
+    right: 24px;
+    bottom: 16px;
+    font-size: 22px;
+}
+.act-btn i{
+    padding: 4px;
+    cursor: pointer;
+}
+.prod-card:hover .act-btn{
+    display: block;
+    animation: fadeIn 0.3s;
+}
